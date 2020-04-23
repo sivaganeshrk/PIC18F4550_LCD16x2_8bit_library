@@ -24,3 +24,17 @@
 6.LCD_Rolling()
 > used to create a small animation the text is move from left to right and vice versa 
 >Example:LCD_Rolling(1,0,"Hello World");
+
+##Pin Connection
+> PIC PORT ----> LCD PIN
+> RB0--->D0
+> RB1--->D1
+> RB2--->D2
+> RB3--->D3
+> RB4--->D4
+> RB5--->D5
+> RB6--->D6
+> RB7--->D7
+> RDO--->RS
+> RD1--->E
+> Don't forgot to connect 10k pot with VEE

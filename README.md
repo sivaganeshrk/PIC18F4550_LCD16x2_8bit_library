@@ -32,7 +32,7 @@
 
 >Example:LCD_Rolling(1,0,"Hello World");
 
-##Pin Connection
+## Pin Connection
 
 > PIC PORT ----> LCD PIN
 

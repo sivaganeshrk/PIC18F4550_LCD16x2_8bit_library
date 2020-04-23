@@ -3,6 +3,10 @@
 1.LCD_Init() 
 > Use to initialize the LCD 16x2 display
 > Example:LCD_Init();
+
+
+
+
 2.LCD_Command()
 > Use to send command to LCD Display directly
 > Command code in is should given in the parentheses

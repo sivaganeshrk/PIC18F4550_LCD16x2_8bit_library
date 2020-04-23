@@ -9,7 +9,7 @@
 
 void LCD_Init();
 void LCD_Clear();
-void LCD_Rolling(char ,char ,char ,const char* );
+void LCD_Rolling(char ,char ,const char* );
 void LCD_Command(char );
 void LCD_String(const char*);
 void LCD_Char(char x);

@@ -65,9 +65,9 @@ void LCD_String_xy(char row,char pos,const char *msg)
 	LCD_String(msg);
 }
 
-void LCD_Rolling(char row,char pos,char shift,const char* msg)
+void LCD_Rolling(char row,char pos,const char* msg)
 {
-	char i;
+	char i,shift=16;
 	LCD_String_xy(row,pos,msg);
 	for(i=0;i<shift;i++)
 	{
